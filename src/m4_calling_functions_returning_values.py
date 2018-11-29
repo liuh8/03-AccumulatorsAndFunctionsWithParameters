@@ -38,7 +38,7 @@ def main():
 def run_test_sum_of_digits():
     """ Tests the  sum_of_digits   function. """
     # -------------------------------------------------------------------------
-    # TODO: 2. Implement this TEST function, as follows:
+    # DONE: 2. Implement this TEST function, as follows:
     #
     #  Step 1:  This TEST function tests the  sum_of_digits  function.
     #    So read the doc-string of the  sum_of_digits  function
@@ -78,6 +78,18 @@ def run_test_sum_of_digits():
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
 
+    # Test 3:
+    expected = 30
+    answer = sum_of_digits(87654)
+    print('Test 3 expected:', expected)
+    print('       actual:  ', answer)
+
+    # Test 4:
+    expected = 30
+    answer = sum_of_digits(-87654)
+    print('Test 4 expected:', expected)
+    print('       actual:  ', answer)
+
 def sum_of_digits(number):
     """
     What comes in:  An integer.
@@ -111,7 +123,7 @@ def sum_of_digits(number):
     return digit_sum
 
 
-def run_test_digits_in_cube():
+def run_test_digits_in_cube(a,b):
     """ Tests the   digits_in_cube   function. """
     # -------------------------------------------------------------------------
     # TODO: 3. Implement this function.
@@ -138,6 +150,15 @@ def run_test_digits_in_cube():
     print('-----------------------------------------------------')
     print('Testing the   digits_in_cube   function:')
     print('-----------------------------------------------------')
+
+    #TEST 1
+    expected = a
+    answer = digits_in_cube(b)
+    print('Test 1 expected:', expected)
+    print('       actual:  ', answer)
+
+
+
 
 
 def digits_in_cube(n):
