@@ -65,7 +65,7 @@ def run_test_sum_of_digits():
     # Test 1:
     expected = 16
     answer = sum_of_digits(826)
-    print('Test 1 expected:', expected)
+    print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
     # -------------------------------------------------------------------------
@@ -73,7 +73,7 @@ def run_test_sum_of_digits():
     # Below this comment, add 3 more test cases of your own choosing.
     # -------------------------------------------------------------------------
     # Test 2:
-    expected =
+    expected = 26
     answer = sum_of_digits(32984)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
